@@ -1,0 +1,21 @@
+└── sources
+    ├── .gitignore #pour ignoré des fichiers/dossiers non utiles car l'api générera automatiquement ce dont elle a besoin
+    ├── main.py #Fichier principal
+    ├── .vscode
+    │   └── launch.json # Fichier de configuration de débugage pour vsCode
+    ├── config
+    │   ├── ConfigDatabase.py # Fichier permettant de configurer la connexion à la base de donnée, elle récupére les variables de ConfigManager
+    │   └── ConfigManager.py # Permet d'initaliser et de regrouper toutes les variables nécessaire au fonctionnement de l'api
+    ├── controllers
+    │   └── AccountController.py # Controlleur des routes /auth/ permettant de gérer l'entré et la sortie.
+    ├── middlewares
+    │   ├── AuthMiddleware.py # Regroupe toutes les fonctions liés à l'utilisateur
+    │   ├── CommentMiddleware.py # Regroupe toutes les fonctions liés au commentaire d'un post
+    │   ├── LikeMiddleware.py # Regroupe toutes les fonctions liés au like d'un post
+    │   └── PostMiddleware.py # Regoupe toutes les fonctions liés au Post
+    ├── models
+    │   ├── PostModel.py # Model permettant des créers les tables post, p_like, p_comment (avec les relations avec User)
+    │   └── UserModel.py # Model permettant de créers les tables user (avec les relations avec post...)
+    └── routes
+        ├── AccountRouter.py # Permettant de créer un groupe de route auth 
+        └── PostRouter.py # Permettant de créer un groupe de route post 
