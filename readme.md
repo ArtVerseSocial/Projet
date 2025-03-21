@@ -1,4 +1,4 @@
-# Welcome on Sport Insight
+# Welcome on ArtVerse
 
 ## Table of contents
 
