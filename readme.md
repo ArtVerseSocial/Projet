@@ -17,7 +17,7 @@ Et tout cela open source où chacun est libre de faire le client pour cette API,
 
 ## Installation
 
-Windows:
+### Windows:
 Install Python 3.7 or higher : [Python](https://www.python.org/downloads/)
 
 Install Git : [Git](https://git-scm.com/downloads)
@@ -36,7 +36,7 @@ Install Dependencies : `$ (.venv) > pip install -r requirements.txt`
 
 Start Application : `$ (.venv) > python3 main.py`
 
-Linux:
+### Linux:
 
 Clone `git clone https://github.com/ArtVerseSocial/ArtVerseAPI.git`
 
