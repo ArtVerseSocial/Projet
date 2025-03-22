@@ -12,8 +12,7 @@
 
 ## Description
 
-C'est une rest API (coté serveur), inspiré de pinterest, pour le concours trophée NSI, le but étant de répondre au besoin de partager son art, dessin et avoir des retours utilisateurs, pouvoir liker, commenter etc...
-Et tout cela open source où chacun est libre de faire le client pour cette API, c'est en quelque sorte aussi un défi pour les débutants qui souhaite s'entrainer sur les api et les clients qui y font des requêtes !
+C'est une API REST (côté serveur), inspirée de Pinterest, pour le concours Trophée NSI. Le but est de répondre au besoin de partager son art, ses dessins et d'obtenir des retours utilisateurs, pouvoir liker, commenter, etc. Et tout cela en open source, où chacun est libre de créer un client pour cette API. C'est en quelque sorte aussi un défi pour les débutants qui souhaitent s'entraîner sur les API et les clients qui y font des requêtes !
 
 ## Schema
 ![Schema](docs/schema.png)
