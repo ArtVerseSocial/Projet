@@ -17,14 +17,14 @@ Et tout cela open source où chacun est libre de faire le client pour cette API,
 
 ## Installation
 
+Clone `git clone https://github.com/ArtVerseSocial/ArtVerseAPI.git`
+
+Go to the project directory : `$ cd SportInsight`
+
 ### Windows:
 Install Python 3.7 or higher : [Python](https://www.python.org/downloads/)
 
 Install Git : [Git](https://git-scm.com/downloads)
-
-Clone `git clone https://github.com/ArtVerseSocial/ArtVerseAPI.git`
-
-Go to the project directory : `$ cd SportInsight`
 
 Install Virtualenv : `$ pip install virtualenv`
 
@@ -32,15 +32,7 @@ Create a virtual environment : `$ virtualenv -p python3.11 .venv `
 
 Activate the virtual environment : `$ .\.venv\Scripts\activate`
 
-Install Dependencies : `$ (.venv) > pip install -r requirements.txt`
-
-Start Application : `$ (.venv) > python3 main.py`
-
 ### Linux:
-
-Clone `git clone https://github.com/ArtVerseSocial/ArtVerseAPI.git`
-
-Go to the project directory : `$ cd SportInsight`
 
 If you not find package python3.11: `sudo add-apt-repository ppa:deadsnakes/ppa` Then `sudo apt update`
 
@@ -53,6 +45,10 @@ Create a virtual environment : `$ virtualenv -p python3.11 .venv `
 On Linux you need to install python3.11 before create the virtual env
 
 Activate the virtual environment: `$ source .venv/bin/activate`
+
+==============================
+
+Install Dependencies : `$ (.venv) > pip install -r requirements.txt`
 
 Start Application : `$ (.venv) > python3 main.py`
 
